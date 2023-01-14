@@ -20,8 +20,9 @@ public class Main
 public void main(String[] args)
 {
     Product p = new Product();
-    System.out.println(p.product(10, 20));
-    System.out.println(p.product(10, 20, 30));
-    System.out.println(p.product(10.5, 20.5));
+    p.product(10, 20);
+    p.product(10, 20, 30);
+    p.product(10.5, 20.5);
 }
+
 }
