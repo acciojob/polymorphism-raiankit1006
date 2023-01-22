@@ -4,16 +4,16 @@ public class Main
 {
     public class Product
     {
-        public int product(int x, int y) {
+        public int Product(int x, int y) {
             return x*y;
         }
 
 
-        public int product(int x, int y, int z) {
+        public int Product(int x, int y, int z) {
             return x*y*z;
         }
 
-        public double product(double x, double y) {
+        public double Product(double x, double y) {
             return x*y;
         }
     }
@@ -21,9 +21,9 @@ public class Main
 public void main(String[] args)
 {
     Product p = new Product();
-    p.product(10, 20);
-    p.product(10, 20, 30);
-    p.product(10.5, 20.5);
+    p.Product(10, 20);
+    p.Product(10, 20, 30);
+    p.Product(10.5, 20.5);
 }
 
  }
